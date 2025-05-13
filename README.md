@@ -150,11 +150,7 @@ docker run -d \
 
 
 
-# Launch Milvus Service 
-# update the code to use local milvus else no run
-```bash
-docker-compose -f dockerfiles/compose/milvus.yaml up
-```
+
 to test in postman/ Post Request  which will download a pdf 
 ```bash
 
