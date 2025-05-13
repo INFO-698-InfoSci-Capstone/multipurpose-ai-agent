@@ -71,29 +71,7 @@ You can directly pull the pre-built docker images from docker hub:
 docker network create multiagent-net
 
 ```
-# Client
 
-```bash
-docker pull ksprudhvi/multi-purpose-ai-client:latest
-
-
-docker run -d \
-  --name multi-purpose-ai-client \
-  --network multiagent-net \
-  -p 7788:7788 \
-  ksprudhvi/multi-purpose-ai-client:latest
-```
-# Server
-```bash
-docker pull ksprudhvi/multi-purpose-ai-server:latest
-
-docker run -d \
---name multi-purpose-ai-server \
---network multiagent-net \
--p 5055:5055 \
-ksprudhvi/multi-purpose-ai-server:latest
-
-```
 ## OpenAiClient
 
 
@@ -147,7 +125,29 @@ docker run -d \
 
 
 ```
+# Client
 
+```bash
+docker pull ksprudhvi/multi-purpose-ai-client:latest
+
+
+docker run -d \
+  --name multi-purpose-ai-client \
+  --network multiagent-net \
+  -p 7788:7788 \
+  ksprudhvi/multi-purpose-ai-client:latest
+```
+# Server
+```bash
+docker pull ksprudhvi/multi-purpose-ai-server:latest
+
+docker run -d \
+--name multi-purpose-ai-server \
+--network multiagent-net \
+-p 5055:5055 \
+ksprudhvi/multi-purpose-ai-server:latest
+
+```
 
 
 
