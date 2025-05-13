@@ -154,10 +154,11 @@ ksprudhvi/multi-purpose-ai-server:latest
 to test in postman/ Post Request  which will download a pdf 
 ```bash
 
-    "http://127.0.0.1:5050/launch_goal",
+   [ (http://localhost:7073/interpret)",
     json={
-        "goal": I want to get all transactions details,
-        "max_turns": 3,
+   
+    "prompt": "I want to get all transactions details"
+},
     },
 
 
