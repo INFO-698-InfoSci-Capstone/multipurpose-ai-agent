@@ -172,6 +172,7 @@ or in Ui
 
 ```bash
 cd UI
+pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
 #Queries related to data base financial data . two table Transactions ,Users 
