@@ -170,10 +170,16 @@ to test in postman/ Post Request  which will download a pdf
 or in Ui 
 
 ```bash
-cd UI
-pip install -r requirements.txt
-streamlit run streamlit_app.py
+docker pull ksprudhvi/multi-purpose-ai-frontend:latest
+docker run -d \
+--name multi-purpose-ai-frontend \
+--network multiagent-net \
+-p 8501:8501 \
+ksprudhvi/multi-purpose-ai-frontend:latest
+
 ```
+
+access it via web browser 
 #Queries related to data base financial data . two table Transactions ,Users 
 
 ![Multi-Purpose AI Framework](./images/uiResponse.png)
