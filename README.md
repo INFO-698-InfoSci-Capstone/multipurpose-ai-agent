@@ -29,6 +29,7 @@ Future updates will feature **Dockerized execution** and a **Binder container** 
 │   └── 📁 supplementaryMaterials/  
 │       ├── 📁 supplementaryFigures/  # Additional figures for the paper  
 │       └── 📁 supplementaryTables/   # Supporting tables  
+|--- app
 │
 ├── 📁 src/                  # Source code for the framework  
 │   ├── backend/             # Flask/FastAPI Boot backend code             
@@ -40,8 +41,6 @@ Future updates will feature **Dockerized execution** and a **Binder container** 
 │
 ├── 📄 README.md             # Main project documentation  
 ├── 📄 requirements.txt      # Dependencies (if using Python)  
-├── 📄 package.json          # Dependencies (if using JavaScript/Node.js)  
-├── 📄 Dockerfile            # Containerization setup  
 ├── 📄 .gitignore            # Ignoring unnecessary files  
 
 
